@@ -27,7 +27,7 @@ sh 'mvn test'
 }
 post {
 always {
-junit '**/target/surefire-reports/*.xml'
+junit '**/target/surefire/*.xml'
 }
 }
 }
